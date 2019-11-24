@@ -1,6 +1,6 @@
-# Hello world javascript action
+# Hello action
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action prints "Hello Hakim" or "Hello" + the name of a person to greet to the log.
 
 ## Inputs
 
@@ -16,6 +16,8 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/hello-world-javascript-action@v1
+```yaml
+uses: ettakhi/hello-action@master
 with:
-who-to-greet: 'Mona the Octocat'
+  who-to-greet: "Hakim"
+```

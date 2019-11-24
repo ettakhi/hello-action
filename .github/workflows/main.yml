@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hello-action@v1
+        uses: ettakhi/hello-action@master
         with:
           who-to-greet: "Hakiim"
       # Use the output from the `hello` step
